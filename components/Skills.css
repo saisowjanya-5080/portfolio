@@ -1,0 +1,42 @@
+.skills{
+    min-height:90vh;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    padding-top: 9rem;
+    text-align: center;
+    padding-top: 9rem;
+}
+.h{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.skill{
+    display: flex;
+    align-items: center start;
+    justify-content:space-around;
+}
+.two{
+    font-size: large;
+    font-weight: 500;
+}
+.backend{
+    text-align: top;
+    align-items: start;
+}
+.head{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width:840px){
+    .skills{
+        right: -5vw;
+        left: 10vw;
+    }
+    .skill{
+        gap: 1rem;
+    }
+}
